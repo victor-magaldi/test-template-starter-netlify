@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-title: O Melhor Café
+title: "O Melhor Café teste "
 image: /img/home-jumbotron.jpg
 heading: Great coffee with a conscience
 subheading: Consuma café e programe mais rápido!!
