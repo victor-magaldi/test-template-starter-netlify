@@ -35,6 +35,31 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Tags", name: "tags", widget: "list" }
 
+  - name: "teste"
+    label: "Blog"
+    folder: "static/content"
+    create: true
+    format: "json"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields:
+      - {
+          label: "Template Key",
+          name: "templateKey",
+          widget: "hidden",
+          default: "blog-post",
+        }
+      - { label: "teste", name: "title", widget: "string" }
+      - { label: "teste  Date", name: "date", widget: "datetime" }
+      - { label: "teste Description", name: "description", widget: "text" }
+      - {
+          label: "teste Featured Post",
+          name: "featuredpost",
+          widget: "boolean",
+        }
+      - { label: "teste Featured Image", name: "featuredimage", widget: image }
+      - { label: "teste Body", name: "body", widget: "markdown" }
+      - { label: "teste Tags", name: "tags", widget: "list" }
+
   - name: "pages"
     label: "Pages"
     files:
